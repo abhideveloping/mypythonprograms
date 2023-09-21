@@ -5,7 +5,7 @@ class calculator:
         print("3.Multiplication")
         print("4.Division")
         
-        a = int(input("Please enter the operation 1/2/3/4/5: "))
+        a = int(input("Please enter the operation 1/2/3/4: "))
         b = float(input("Enter the first number:  "))
         c = float(input("Enter the second number:  "))
         
@@ -25,8 +25,7 @@ class calculator:
             result = b/c
             print(result)
         
-        else: 
-            print('wrong choice made')
+        
         
 ca = calculator()
 ca.calc()   
