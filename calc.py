@@ -24,6 +24,9 @@ class calculator:
         elif a == 4:
             result = b/c
             print(result)
+            
+        else:
+            print('wrong choice friend')
         
         
         
